@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>MEO – My Everyday OS</title>
+<meta name="description" content="MEO brings notes, reminders, expenses, shopping lists and places together in Spaces. A Behance concept by Muhsin Erkam Oktay, built as a working mobile web app.">
+<meta name="theme-color" content="#F3F4FF">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="MEO">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+<!-- Link previews (LinkedIn, WhatsApp, X) -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://vagobandoras.github.io/meo-everyday-os/">
+<meta property="og:title" content="MEO – My Everyday OS">
+<meta property="og:description" content="Notes, reminders, expenses, lists and places in one place. A Behance concept turned into a working mobile web app.">
+<meta property="og:image" content="https://vagobandoras.github.io/meo-everyday-os/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;family=STIX+Two+Text:wght@500;600&amp;display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app">
+  <div class="phone" id="phone">
+    <main id="view" class="view"></main>
+    <div id="footer" class="footer" hidden></div>
+    <nav id="tabbar" class="tabbar" aria-label="Main navigation"></nav>
+    <div id="sheets" class="sheet-layer"></div>
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  </div>
+</div>
+<noscript><p style="padding:24px;font-family:sans-serif">MEO needs JavaScript to run.</p></noscript>
+<script src="app.js"></script>
+</body>
+</html>
